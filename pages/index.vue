@@ -1,19 +1,19 @@
 <template>
   <div >
     <Header />
-    <div>
-      
-    </div>
+    <Presentation />
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import Header from '~/components/UI/Header.vue'
+import Presentation from '~/components/UI/Presentation.vue'
 export default {
   components: {
     Logo,
-    Header
+    Header,
+    Presentation
   }
 }
 </script>
