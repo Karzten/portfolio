@@ -2,6 +2,7 @@
   <div >
     <Header />
     <Presentation />
+    <AboutMe />
   </div>
 </template>
 
@@ -9,11 +10,13 @@
 import Logo from '~/components/Logo.vue'
 import Header from '~/components/UI/Header.vue'
 import Presentation from '~/components/UI/Presentation.vue'
+import AboutMe from '~/components/sections/AboutMe.vue'
 export default {
   components: {
     Logo,
     Header,
-    Presentation
+    Presentation,
+    AboutMe
   }
 }
 </script>
