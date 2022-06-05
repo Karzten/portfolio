@@ -1,9 +1,12 @@
 <template>
   <div >
     <Header />
-    <Presentation />
-    <AboutMe />
-    <Skills />
+    <body>
+      <Presentation />
+      <AboutMe />
+      <Skills />
+      <Footer />
+    </body>
   </div>
 </template>
 
@@ -13,22 +16,23 @@ import Header from '~/components/UI/Header.vue'
 import Presentation from '~/components/UI/Presentation.vue'
 import AboutMe from '~/components/sections/AboutMe.vue'
 import Skills from '~/components/sections/Skills.vue'
+import Footer from '~/components/sections/Footer.vue'
 export default {
   components: {
     Logo,
     Header,
     Presentation,
     AboutMe,
-    Skills
+    Skills,
+    Footer
   }
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-
+/* body {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+} */
 </style>
