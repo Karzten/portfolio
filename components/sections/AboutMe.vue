@@ -32,4 +32,28 @@
 .about-me-content {
     font-size: 1.625rem;
 }
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .about-me-title {
+        font-size: 1.6rem;
+    }
+    .about-me-content {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .about-me-title {
+        font-size: 2rem;
+    }
+    .about-me-content {
+        font-size: 1.25rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .about-me-title {
+        font-size: 2.2rem;
+    }
+    .about-me-content {
+        font-size: 1.5rem;
+    }
+}
 </style>
