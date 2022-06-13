@@ -15,7 +15,7 @@
 <style scoped>
 .presentation {
     font-family: 'Oxanium', sans-serif;
-    margin-top: 72px;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
