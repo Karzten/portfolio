@@ -42,7 +42,7 @@ export default {
         if (typeof window !== 'undefined') {
             window.addEventListener('scroll', this.handleScroll);
         }
-        
+
     },
     destroyed () {
         if (typeof window !== 'undefined') {
@@ -151,5 +151,19 @@ export default {
     .nav-toggle:focus:not(:focus-visible){
         outline: none;
     }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 1.75rem;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    font-size: 1rem;
+    line-height: 50px;
+  }
 }
 </style>
